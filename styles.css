@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #333;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.draggable {
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+    margin-bottom: 2rem;
+    transition: opacity 200ms;
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
+.dragging {
+    opacity: 1;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 1px;
+}
